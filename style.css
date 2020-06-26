@@ -108,6 +108,8 @@ header a {
 header a:hover {
   transform: translateY(-8px);
 }
+a:link {color:black;}
+a:visited {color:black;}
 
 
 /* Hero image */
@@ -129,12 +131,12 @@ header .hero-image img:hover {
 }
 
 /* Tablet Landscape */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 100%) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
 /* Tabled Portrait */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
